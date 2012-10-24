@@ -1,0 +1,1 @@
+Demonstrates a method to detect a mobile phone browser and respond appropriately.
