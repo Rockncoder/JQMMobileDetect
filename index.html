@@ -22,12 +22,15 @@
 	      media="(device-width: 320px) and (-webkit-device-pixel-ratio: 2)"
 	      href="icons/RnCSplash640x920.png">
 	<script type="text/javascript" src="libs/jquery-1.7.1.min.js"></script>
+    <!-- if the device is a mobile phone, go to phone.html -->
     <script type="text/javascript" src="scripts/detectmobilebrowser.js"></script>
+    <!-- otherwise go to the desktop.html -->
     <script type="text/javascript">
         window.location = "desktop.html";
     </script>
 </head>
 <body>
+    <!-- If we got here, JavaScript maybe turned off, so let the user choose where they want to go -->
     <header>
         <h1>Desktop/Tablet or Phone Page</h1>
     </header>
